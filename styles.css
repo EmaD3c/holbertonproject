@@ -1,0 +1,38 @@
+.topbar {
+    background: #242323 ;
+   padding: 20px;
+   height: 500px;
+   color: white;
+}
+
+
+  .body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+
+.main {
+    background: lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    }
+
+.footer {
+    background: grey;
+
+}
+.aside {
+    display: flex;
+}
+.article12gods {
+    flex: 2;
+    overflow-y: auto;
+}
+
+.aside {
+    flex: 1;
+    overflow-y: auto;
+}
