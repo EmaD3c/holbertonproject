@@ -1,38 +1,96 @@
-.topbar {
-    background: #242323 ;
-   padding: 20px;
-   height: 500px;
-   color: white;
+/* Reset des marges et paddings */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
 }
 
-
-  .body {
-    margin: 0;
+/* Styles pour le corps de la page */
+.body {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
-  }
+}
 
+/* Styles pour le header */
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #242323; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px;
+}
+
+/* Styles pour la navigation */
+nav {
+    margin-bottom: 28px; /* Espacement en bas */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+    margin: 0 60px; /* Espacement autour des liens */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+/* Styles pour la navigation dans topbar */
+.topbar nav {
+    width: 100%;
+    font-size: 22px; /* Taille de la police plus grande */
+    color: white; /* Couleur du texte en blanc */
+}
+
+/* Styles pour le contenu principal */
 .main {
-    background: lightgrey;
     display: flex;
-    flex-direction: row;
-    flex: auto;
-    }
-
-.footer {
-    background: grey;
-
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+    justify-content: center; /* Centre les éléments horizontalement */
+    width: 100%;
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrage horizontal */
 }
-.aside {
-    display: flex;
-}
+
+/* Styles pour l'article */
 .article12gods {
-    flex: 2;
-    overflow-y: auto;
+    flex: 2; /* Occupe 2/3 de l'espace disponible */
+    padding: 20px;
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+    overflow-y: auto; /* Ajout de la barre de défilement vertical si nécessaire */
 }
 
+/* Styles pour la section secondaire */
 .aside {
-    flex: 1;
-    overflow-y: auto;
+    flex: 1; /* Occupe 1/3 de l'espace disponible */
+    padding: 20px;
+    background-color: #f2f2f2; /* Couleur de fond */
+    border-radius: 10px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+    overflow-y: auto; /* Ajout de la barre de défilement vertical si nécessaire */
+}
+
+/* Styles pour le footer */
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #333; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 20px;
+}
+
+.footer a {
+    color: white; /* Couleur des liens */
+}
+
+/* Styles pour la classe image */
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styles pour l'image à l'intérieur de la classe image */
+.image img {
+    margin-bottom: 20px; /* Espacement en bas de l'image */
 }

@@ -1,0 +1,85 @@
+/* Reset des marges et paddings
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Styles pour le corps de la page */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+}
+
+/* Styles pour le header */
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #242323; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 20px;
+}
+
+/* Styles pour la navigation */
+nav {
+    margin-bottom: 28px; /* Espacement en bas */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+    margin: 0 60px; /* Espacement autour des liens */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+/* Styles pour la navigation dans topbar */
+.topbar nav {
+    width: 100%;
+    font-size: 22px; /* Taille de la police plus grande */
+    color: white; /* Couleur du texte en blanc */
+}
+
+/* Styles pour la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Bordure du tableau */
+}
+
+/* Styles pour les cellules d'en-tête */
+th {
+    background-color: #f2f2f2; /* Couleur de fond */
+    border: px solid #ddd; /* Bordure */
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement du texte */
+}
+
+/* Styles pour les cellules de données */
+td {
+    border: 5px solid #ddd; /* Bordure */
+    padding: 20px; /* Espacement interne */
+}
+
+/* Styles pour les lignes impaires */
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+/* Style pour le titre */
+h4 {
+    margin-top: 20px; /* Espacement en haut */
+}
+
+/* Style pour la citation Twitter */
+.twitter-tweet {
+    margin: 20px 0; /* Espacement en haut et en bas */
+}
+
+/* Style pour le lien de retour */
+body > p {
+    margin-top: 20px; /* Espacement en haut */
+}
