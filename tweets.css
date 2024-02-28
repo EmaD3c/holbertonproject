@@ -10,6 +10,10 @@ h1, h2, h3, p, ul {
     flex-direction: column;
     align-items: center; /* Centrer horizontalement */
     justify-content: center; /* Centrer verticalement */
+    background-image: url("img/dieu.PNG"); /* Chemin vers votre image */
+    background-size: cover; /* Couvrir tout le fond */
+    background-position: center; /* Centrer l'image */
+    
 }
 
 /* Styles pour le header */
